@@ -1,0 +1,24 @@
+#headerdiv {
+	height: 100vh;
+	width: 100%;
+	background-image: url("../img/2611100.jpg");
+	background-size: cover;
+}
+
+#pxl-logo {
+  width: 100%;
+  max-width: 2.5em;
+  max-height: 2.5em;
+  margin-right: 10px;
+}
+
+.info {
+	
+	padding-top: 300px;
+}
+
+#mainpagebutton {
+	color:#fff;
+	background-color:213e3b;
+	border-color: 213e3b;
+}
