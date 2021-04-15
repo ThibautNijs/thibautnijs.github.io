@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" style="scroll-behavior: smooth;">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -8,9 +8,13 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href= "css/styles.css">
-    <title>Thibaut Nijs | iTalent Portfolio</title>
+    <script src="https://kit.fontawesome.com/b203d1e97f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="img/font-awesome-4.7.0/css/font-awesome.css">
+    <script src="js/particles.js"></script>
   </head>
-  <body id="page-top">
+    <title>Thibaut Nijs | I-Talent Portfolio</title>
+  </head>
+  <body id="page-top" style="overflow-x: hidden">
   	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
       <div class="container">
         <a href="https://www.pxl.be/" target="_blank">
@@ -23,58 +27,657 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#voorstelling">OVER MIJ</a>
+              <a class="nav-link js-scroll-trigger text-white" href="#overmij">Over mij</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#overzicht">Overzicht</a>
+              <a class="nav-link js-scroll-trigger text-white" href="#overzicht">Overzicht</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+              <a class="nav-link js-scroll-trigger text-white" href="#activiteiten">Activiteiten</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#reflectie">Reflectie</a>
+              <a class="nav-link js-scroll-trigger text-white" href="#reflectie">Reflectie</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger text-white" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <div id="headerdiv">
+    <div id="particles-js">
     <header class="info masthead text-center text-black d-flex">
       <div class="container my-auto">
         <div class="row">
           <div class="col-lg-10 mx-auto">
             <h1 class="text-uppercase">
-              <strong>iTalent Portfolio</strong>
+              <strong>I-Talent Portfolio</strong>
             </h1>
             <!--<hr class="dark my-4">-->
           </div>
           <div class="col-lg-8 mx-auto">
             <p class="text-faded mb-5">Visuele presentatie van het portfolio</p>
-            <button type="button" class="btn btn-primary"  href="#voorstelling">Lees meer</button>
+            <a href="#overmij">
+              <button type="button" class="btn btn-dark">Lees meer</button>
+            </a>           
           </div>
         </div>
       </div>
     </header>
     </div>
-    <section class="bg-info" id="voorstelling">
+    </div>
+    <section class="bg-info" id="overmij">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">Voorstelling</h2>
+            <h2 class="section-heading text-white" style="margin-top: 85px;">Over mij</h2>
+            <hr class="light my-4">
             <!--<hr class="light my-4">-->
-            <img id="profielfoto" src="img/thibaut.jpg" alt="hier komt foto">
+            <img id="profielfoto" style="padding:20px; border-radius: 150px;" src="img/thibaut.jpg" alt="profielfoto" >
             <!--<hr class="light my-4">-->
-            <p class="text-faded mb-4">text</p>
+            <p class="mb-4 text-white">Ik ben Thibaut Nijs, een laatstejaarsstudent Toegepaste Informatica aan Hogeschool PXL met systeem- en netwerkbeheer als afstudeerrichting. Als ik niet voor school werk, ben ik vaak bezig met mijn cybersecurity vaardigheden te verbeteren of Mandarijn te leren..</p>
+            <p class="mb-4 text-white">Al sinds jongs af aan ben ik heel vaak met computers in contact gekomen. Er werd me vaak herinnerd om veilig te surfen op het internet, hierdoor begon ik me de vraag te stellen waarom dit nodig is. Toen een vriend van mij op jonge leeftijd gehackt was op een website, heb ik sindsdien dagelijks proberen bij te leren over cybersecurity.</p>
+            <p class="mb-4 text-white ">Voor mijn cybersecurity vaardigheden te verbeteren, maak ik gebruik van websites zoals HackTheBox waar men individuele challenges kan uitvoeren om probleemoplossend te leren denken. Vaak lukken bepaalde challenges niet meteen, maar een medestudent plaatst video’s met uitleg op YouTube om anderen te helpen wanneer ze vastzitten.</p>
+            <p class="mb-4 text-white">Van nature ben ik een persoon die zeer leergierig is. Ik probeer een stevige basis te ontwikkelen in alles dat ik doe, dit ook in cybersecurity aangezien het een onderwerp is dat zeer breed uitloopt. Dit verloopt vlot omdat ik ook altijd zeer gemotiveerd ben om nieuwe kennis en technologieën succesvol toe te passen in de praktijk.</p>
+            <p class="mb-4 text-white">Apart van praktische vaardigheden ben ik ook een persoon die zeer communicatief is ingesteld.  Ik overleg vaak met medestudenten over wat de beste oplossing kan zijn, of hoe we best iets kunnen aanpakken. Hierdoor kunnen er soms conflicten ontstaan, maar ik hou het hoofd koel in deze situatie om tot een mooie overeenkomst te komen. Gedurende het IT-project hadden we een gelijkaardige situatie waar ik veel uit geleerd heb. Het onderwerp was niet meteen duidelijk waardoor we verkeerd begonnen te werken. Niemand had nog veel zin maar ik, als teamleider, heb toen afgesproken met het team dat er nog niets verloren was. Het resultaat hiervan was een  zeer snelle en correcte vooruitgang van opdrachten.</p>
+            <p class="mb-4 text-white">Ik ben er altijd vrij zeker van geweest dat ik de wereld van cybersecurity verder wil ontdekken als job wanneer ik afgestudeerd ben. Mijn origineel plan was dat ik na mijn opleiding aan Hogeschool PXL een extra opleiding cybersecurity wou volgen. Maar na nader inzien heb ik me gerealiseerd dat ik het meeste bijleer door zelfstudie. Ook heb ik doorheen mijn stage gemerkt dat ik enorm snel bijleer wanneer ik volledig omringd ben met een specifieke omgeving dat ik veel sneller bijleer dan normaal. Hierdoor heb ik besloten dat ik geen extra opleiding cybersecurity zal volgen, maar meteen tewerk zal gaan binnen de wereld van cybersecurity. Mijn voorkeur hiervoor gaat naar een job als ‘penetration tester’, dit kan men beschouwen als een ethische hacker. Ook vind ik het enorm fijn dat penetration testers meestal aan consultancy doen, het spreekt me enorm aan als ik telkens binnen een andere omgeving tewerk kan gaan. Hierdoor is elke nieuwe omgeving een nieuwe uitdaging waar nieuwe technologieën gebruikt worden, dit sluit nauw aan met mijn leergierigheid.</p>
           </div>
         </div>
       </div>
     </section>
-    
+    <section id="overzicht">
+    <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading"  style="margin-top: 85px">Overzicht</h2>
+            <hr class="my-4">
+          </div>
+        </div>
+      </div>
+	   <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fas fa-4x fa-medal text-primary mb-3 sr-icon-2" style="visibility: visible;"></i>
+              <h3 class="mb-3">Innovatie</h3>
+              <p class="text-muted mb-0">Binnen dit domein gaat de student zelf of in een (multidisciplinair) team actief opzoek naar nieuwe kennis en vaardigheden in functie van innovatie, onderzoek en ondernemen waarbij de verworven kennis en/of vaardigheden toegepast kunnen worden in projecten.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fas fa-4x fa-user-edit text-primary mb-3 sr-icon-3" style="visibility: visible;"></i>
+              <h3 class="mb-3">Persoonlijke ontwikkeling</h3>
+              <p class="text-muted mb-0">Binnen dit domein wordt er een e-portfolio aangelegd met daarin een persoonlijke en doelgerichte verzameling van materiaal dat de inspanningen, vooruitgang en prestaties in een bepaald domein weergeeft. Het hoofddoel van het portfolio is om te kunnen reflecteren over voortgang van het eigen leerproces als beginnend professional.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fas fa-4x fa-book-reader text-primary mb-3 sr-icon-3" style="visibility: visible;"></i>
+              <h3 class="mb-3">Seminaries</h3>
+              <p class="text-muted mb-0">Binnen dit domein wordt het perspectief op IT in een business context verruimd. Via seminaries en workshops wordt er kennis gemaakt met nieuwe technieken, technologieën, … of wordt er geleerd hoe bestaande technieken, technologieën, … toegepast kunnen worden in projecten.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <i class="fas fa-4x fa-plus text-primary mb-3 sr-icon-1" style="visibility: visible;"></i>
+              <h3 class="mb-3">Extra's</h3>
+              <p class="text-muted mb-0">Binnen dit domein wordt het engagement en de empassie getoond voor de hogeschool, de opleiding en medestudenten.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container" style="margin-top: 100px;">
+        <table class="table-bordered table" id="#tabel1">
+          <thead>
+            <tr>
+              <th>Categorie</th>
+              <th width="60%">Beschrijving</th>
+              <th>Logo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+               <i class="fas fa-4x fa-plus text-primary mb-3 sr-icon-1" style="visibility: visible;"></i>
+              </td>
+              <td>
+                <h4>Sinterklaas programming challenge</h4>
+                <p>Toen ik het vak Java Advanced volgde, vertelde docent Tom Schuyten ons dat er een ‘programming challenge’ georganiseerd werd door Hogeschool PXL. Aangezien ik het uitdagingen zeer fijn vind, nam ik hier aan deel. Ik ben toen in de top 3 geëindigd waardoor ik een gratis broodje won.</p>
+                <h6>Locatie: PXL</h6>
+                <h6>Datum: 03/12/2018 - 04/12/18</h6>
+                <h6>Duur: 3 uur</h6>
+              </td>
+              <th>
+                <a href="https://www.pxl.be" target="_blank">
+                  <img alt="Logo PXL" src="img/pxl.png" style="width: 35%; display: block; margin: auto;">
+                </a>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <i class="fas fa-4x fa-user-edit text-primary mb-3 sr-icon-3" style="visibility: visible;"></i>
+              </td>
+              <td>
+                <h4>Projectweek 2018-2019</h4>
+                <p>Tijdens de projectweek hebben we heel veel informatie opgedaan a.d.h.v. workshops, seminaries en zelfs een jobbeurs. Ook moesten we een persoonlijke test afleggen zodat er teams gevormd konden worden voor het Research Project op basis van persoonlijkheid.</p>
+                <h6>Locatie: PXL</h6>
+                <h6>Datum: 11/02/2019 - 15/02/2019</h6>
+                <h6>Duur: 26 uur</h6>
+              </td>
+              <th>
+                <a href="https://www.pxl.be" target="_blank">
+                  <img alt="Logo PXL" src="img/pxl.png" style="width: 35%; display: block; margin: auto;" >
+                </a>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <i class="fas fa-4x fa-user-edit text-primary mb-3 sr-icon-3" style="visibility: visible;"></i>
+              </td>
+              <td>
+                <h4>POP-sessies</h4>
+                <p>Doorheen de projectweek namen we ook deel aan POP-sessies zoals ‘The key to improvement’, ‘POP-ping’, ‘Brein aan het werk’ en ‘Niet storen’. Er werd vooral uitgelegd hoe we best samenwerken in een team. Ook waren er vaak onderlinge activiteiten voor de studenten voorzien. Twee sessies werden georganiseerd door Carl Vlems en Jo Dens van Learning Path.</p>
+                <h6>Locatie: PXL</h6>
+                <h6>Datum: 20/02/2019, 27/02/2019</h6>
+                <h6>Duur: 10 uur</h6>
+              </td>
+              <th>
+                <a href="https://www.pxl.be" target="_blank">
+                  <img alt="Logo PXL" src="img/pxl.png" style="width: 35%; display: block; margin: auto; top: 50%;">
+                </a>
+              </th>
+            </tr>
+            <tr>
+              <td>
+               <i class="fas fa-4x fa-book-reader text-primary mb-3 sr-icon-3" style="visibility: visible;"></i>
+              </td>
+              <td>
+                <h4>IT@Breakfast: Droneport</h4>
+                <p>Tijdens een ontbijtseminarie kwam de CEO van Droneport spreken over de functionaliteiten van drones tegenwoordig en in de toekomst. Zo vertelde hij over de verschillende soorten drones die gebruikt kunnen worden bij de brandweer en ziekenhuizen om menselijke taken te vergemakkelijken. </p>
+                <h6>Locatie: PXL Congress</h6>
+                <h6>Datum: 20/02/2019</h6>
+                <h6>Duur: 2 uur</h6>
+              </td>
+              <th>
+                <a href="https://droneport.eu/" target="_blank">
+                  <img alt="logo DronePort" src="img/droneport.jpg" style="width=100%; display: block; margin: auto; top: 50%;">
+                </a>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <i class="fas fa-4x fa-book-reader text-primary mb-3 sr-icon-3" style="visibility: visible;"></i>
+              </td>
+              <td>
+                <h4>Digital@Breakfast: Facebook en ik</h4>
+                <p>Het seminarie Facebook en ik werd gegeven door Tim Verheyden, een journalist en presentator bij VRT NWS. Hij lichtte zijn documentaire toe die hij gemaakt had toen hij bij Facebook op bezoek ging. Ik vond het enorm interessant toen er verteld werd hoe Facebook met de privacy van hun gebruikers omgaat.</p>
+                <h6>Locatie: PXL Congress</h6>
+                <h6>Datum: 22/05/2019</h6>
+                <h6>Duur: 2 uur</h6>
+              </td>
+              <th>
+                <a href="https://www.vrt.be/vrtnws/nl/" target="_blank">
+                  <img alt="logo VRT NWS" src="img/vrtnws.png" style="width: 60%">
+                </a>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <i class="fas fa-4x fa-book-reader text-primary mb-3 sr-icon-3" style="visibility: visible;"></i>
+              </td>
+              <td>
+                <h4>Grasshoppers Academy: UX in application development</h4>
+                <p>XXX</p>
+                <h6>Locatie: PXL, B141</h6>
+                <h6>Datum: 03/03/2019</h6>
+                <h6>Duur: 3 uur</h6>
+              </td>
+              <th>
+                <a href="https://www.eurofins.be" target="_blank">
+                  <img alt="logo Grasshoppers" src="img/grasshoppers.jpg">
+                </a>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <i class="fas fa-4x fa-book-reader text-primary mb-3 sr-icon-3" style="visibility: visible;"></i>
+              </td>
+              <td>
+                <h4>GLUO: Infrastructure 2.0</h4>
+                <p>Tijdens dit seminarie kwam Joris Gamers, een alumni van de Hogeschool PXL, spreken over de cloud- en DevOps-omgevingen. Ook was er een praktisch labo voor de studenten voorzien waar men in een AWS omgeving tewerk kon gaan.</p>
+                <h6>Locatie: PXL, EG515</h6>
+                <h6>Datum: 10/03/2020</h6>
+                <h6>Duur: 3 uur</h6>
+              </td>
+              <th>
+                <a href="https://www.gluo.be/" target="_blank">
+                  <img alt="logo Gluo" src="img/gluo.png">
+                </a>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <i class="fas fa-4x fa-book-reader text-primary mb-3 sr-icon-3" style="visibility: visible;"></i>
+              </td>
+              <td>
+                <h4>Secwise: Cloud; the new frontline in Cyber Security and how to protect organisations</h4>
+                <p>XXX.</p>
+                <h6>Locatie: PXL, G514</h6>
+                <h6>Datum: 21/04/2019</h6>
+                <h6>Duur: 4 uur</h6>
+              </td>
+              <th>
+                <a href="https://www.secwise.be/" target="_blank" class="bg-light">
+                  <img alt="logo SecWise" src="img/secwise.png" style="width:15em; height:10em;">
+                </a>
+              </th>
+            </tr>
+            <tr>
+              <td>
+               <i class="fas fa-4x fa-medal text-primary mb-3 sr-icon-2" style="visibility: visible;"></i>
+              </td>
+              <td>
+                <h4>Innovatieroute: Security</h4>
+                <p>De eerste dag kwam The Security Factory spreken over webapp pentesting, er werd uitgelegd hoe dit te werk gaat en hoe het opgelost kan worden. De tweede dag kwam SpotIT over security scenario’s op netwerk niveau. Ten slotte kregen we uitleg van Deloitte hoe blue teaming operations  er aan toe gaan. Een van de sprekers was Fabrizio Noviello, een alumni van de Hogeschool PXL.</p>
+                <h6>Locatie: PXL, G515 - G412</h6>
+                <h6>Datum: 01/10/2020 - 02/10/2020, 08/10/2020 </h6>
+                <h6>Duur: 24 uur</h6>
+              </td>
+              <th>
+                <a href="https://www.pxl.be" target="_blank">
+                  <img alt="Logo PXL" src="img/pxl.png" style="width: 50%">
+                </a>
+              </th>
+            </tr>
+            <tr>
+            <tr>
+              <td>
+                <i class="fas fa-4x fa-book-reader text-primary mb-3 sr-icon-3" style="visibility: visible;"></i>
+              </td>
+              <td>
+                <h4>Fourcast: Google Cloud - introduction to Kubernetes</h4>
+                <p>Payam Ebrahimi van Fourcast kwam een Engelstalig seminarie geven over Kubernetes. Eerst werd er verteld wat Kubernetes is en waarom deze soort tools zeer krachtig zijn tegenwoordig. Na een duidelijke toelichting werd een demo voorzien waar we hands-on te werk konden gaan voor een basis cluster op te zetten en onderhouden.</p>
+                <h6>Locatie: PXL, G310 1</h6>
+                <h6>Datum: 28/10/2020</h6>
+                <h6>Duur: 3 uur</h6>
+              </td>
+              <th>
+                <a href="https://gcloud.devoteam.com/" target="_blank">
+                  <img alt="logo Fourcast" src="img/fourcast.png">
+                </a>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <i class="fas fa-4x fa-medal text-primary mb-3 sr-icon-2" style="visibility: visible;"></i>
+              </td>
+              <td>
+                <h4>HackTheBox University CTF</h4>
+                <p>Ik werd door Maarten Sourbron ingelicht dat er een security challenge georganiseerd werd HackTheBox waar wereldwijd universiteiten en hogescholen aan deelnamen. Hier zijn we als team 43e (van 202 teams) geëindigd. Ook heb ik nieuwe vrienden leren kennen waar ik bijna dagelijks mee spreek!  </p>
+                <h6>Locatie: Online</h6>
+                <h6>Datum: 20/11/2020 – 22/11/2020</h6>
+                <h6>Duur: 16 uur</h6>
+              </td>
+              <th>
+                <a href="https://www.hackthebox.eu" target="_blank">
+                  <img alt="logo HackTheBox" src="img/htb.png">
+                </a>
+              </th>
+            </tr>
+            <tr>
+            <tr>
+              <td>
+                <i class="fas fa-4x fa-book-reader text-primary mb-3 sr-icon-3" style="visibility: visible;"></i>
+              </td>
+              <td>
+                <h4>Ericsson: Op weg naar 5G</h4>
+                <p>XXX</p>
+                <h6>Locatie: MS Teams</h6>
+                <h6>Datum: 25/11/2020</h6>
+                <h6>Duur: 3 uur</h6>
+              </td>
+              <th>
+                <a href="https://www.ericsson.com/en" target="_blank">
+                  <img alt="logo Ericsson" src="img/ericsson.png" style="width:15em; height:10em;">
+                </a>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <i class="fas fa-4x fa-book-reader text-primary mb-3 sr-icon-3" style="visibility: visible;"></i>
+              </td>
+              <td>
+                <h4>RCCU: Uitdagingen in de wereld van e-forensics & cybercrime</h4>
+                <p>Tijdens dit online seminarie kwam Manuel Schaeken (Hoofd van Computer Crime Unit bij de Belgische Federale Politie) spreken over e-forensics en cybercrime. Ik wou hier meer over weten aangezien mijn vader bij de politie werkt. Er werd onder andere gesproken over hoe blockchain wel degelijk traceerbaar is, en hoe ze dit aanpakken. Hier had ik weinig kennis van voor ik het seminarie volgde, maar het was zeer duidelijk uitgelegd en het sprak me heel erg aan. Ook werd er uitgelegd hoe ze forensics uitvoeren op hardware, bijvoorbeeld hoe men specifieke data kan uitlezen uit auto’s. Aangezien ik zeer weinig kennis heb van hardware vond ik dit wel nuttig om te weten, omdat ik hier in mijn vrije tijd mee kan experimenteren voor als ik het interessant zou vinden.</h6>
+                <h6>Locatie: MS Teams</h6>
+                <h6>Datum: 16/12/2020</h6>
+                <h6>Duur: 3 uur</h6>
+              </td>
+              <th>
+                <a href="https://www.politie.be" target="_blank">
+                  <img alt="logo Politie België" src="img/politie.png" style="width:23em; height:15em;">
+                </a>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <i class="fas fa-4x fa-plus text-primary mb-3 sr-icon-1" style="visibility: visible;"></i>
+              </td>
+              <td>
+                <h4>I-Talent website</h4>
+                <p>Aangezien ik het persoonlijk vrij saai vind om Word documenten te lezen, had ik het idee om mijn portfolio ook visueel te tonen op een website als alternatief. Deze is niet volledig van nul opgebouwd, maar ik heb mijn eigen creatieve ideeën er in verwerkt.</p>
+                <h6>Locatie: /</h6>
+                <h6>Datum: 24/02/2021 – 25/02/2021</h6>
+                <h6>Duur: 6 uur</h6>
+              </td>
+              <th>
+                <a href="https://github.com/ThibautNijs/thibautnijs.github.io" target="_blank">
+                  <img alt="logo GitHub" src="img/github.png" style="width:20em; height:20em;">
+                </a>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <i class="fas fa-4x fa-medal text-primary mb-3 sr-icon-2" style="visibility: visible;"></i>
+              </td>
+              <td>
+                <h4>Hackathon: Cyber Security Challenge 2021</h4>
+                <p>Het seminarie over secure development werd opgesplitst in twee delen: een theoretisch en een praktisch deel. Initieel werd er uitleg gegeven over of er rekening gehouden kan worden met het ontwikkelen van veilige software in korte cycli, ook wel sprints genaamd. In het tweede deel konden we deze technieken toepassen in een virtuele machine dat door PwC voorbereid was.</p>
+                <h6>Locatie: Online</h6>
+                <h6>Datum: 09/03/2021 - 10/03/2021, 26/03/2021</h6>
+                <h6>Duur: 30 uur</h6>
+              </td>
+              <th>
+                <a href="https://www.cybersecuritychallenge.be/" target="_blank">
+                  <img alt="logo CSC BE" src="img/cscbe.jpg" style="width:20em; height:20em;" >
+                </a>
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <i class="fas fa-4x fa-plus text-primary mb-3 sr-icon-1" style="visibility: visible;"></i>
+              </td>
+              <td>
+                <h4>Reverse Engineering</h4>
+                <p>XXX</p>
+                <h6>Locatie: /</h6>
+                <h6>Datum: 01/03/2021 - ...</h6>
+                <h6>Duur: /</h6>
+              </td>
+              <th>
+                /
+              </th>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+ <section id="activiteiten" style="margin-top: 25px">>
+ <div class="row">
+    <div class="col-lg-12 text-center">
+        <h2 class="section-heading" style="margin-top: 60px">Activiteiten</h2>
+        <hr class="my-4">
+    </div>
+ </div>
+ <div class=accordion style="padding-bottom: 50px;">
+ <div id="accordion">
+  <div class="card" style="border: none;">
+    <div class="card-header col-md-6 col-sm-12 text-center mx-auto" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Hackathon: Cyber Security Challenge 2021
+        </button>
+      </h5>
+    </div>
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body mx-auto">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="card" style="border: none;">
+    <div class="card-header col-md-6 col-sm-12 text-center mx-auto" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+          Innovatieroute: Security
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body mx-auto">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="card" style="border: none;">
+    <div class="card-header col-md-6 col-sm-12 text-center mx-auto" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+          Zelfstudie: Reverse Engineering
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body mx-auto text-center col-lg-8">
+        <p>Reverse engineering is het proces waarmee men probeert te begrijpen hoe software, apparaten, systemen of processen intern werken. Het is één van de bekende onderwerpen binnen de wereld van security. Mijn interesse is hiervoor ontstaan sinds het HackTheBox CTF evenement waar ik in een team zat met onder andere Sander Smets, een student aan de Hogeschool PXL die zeer veel kennis heeft omtrent reverse engineeren.</p>
+
+		<p>Vooraleer we beginnen met reversen kunnen we beter eerst begrijpen hoe de interne machine taal ontstaat en werkt. Voor de demo die ik ga toelichten wordt er gebruik gemaakt van binary file dat geschreven is in de programmeertaal C. De code die ik als programmeur schrijf, begrijpt de computer niet. Hierdoor wordt er gebruikt gemaakt van een compiler (GNU Compiler Collection of GCC in dit geval), dit zal onze ‘human-readable’ code omzetten naar de zogenaamde assembly dat een processor kan begrijpen.</p>
+
+		<p>Als demo heb ik een binary gemaakt wat een challenge voorstelt, maar ik heb enkele geheime stukken tekst in plain text laten staan. Hierdoor kunnen ook lezers die niet veel technische kennis hebben ook begrijpen waar we naar toe werken.</p>
+
+		<img alt="reversing" src="img/activiteiten/reversing/inspect.png">
+ 
+		<p>Wanneer we de binary inspecteren zien we dat het een 64-bit ELF, not stripped executable is. 64-bit en 32-bit gebruiken andere registers om data in op te slaan. Not stripped betekent dat de namen van de functies nog steeds zichtbaar zijn in de assembly, dit zorgt ervoor dat het makkelijker is om de workflow van de executable te begrijpen.</p>
+
+		<img alt="reversing" src="img/activiteiten/reversing/execute.png">
+ 
+		<p>Wanneer we het bestand uitvoeren krijgen we een prompt dat ons vraagt als we liever school of vakantie hebben. We kunnen onze keuze invoeren door het overeenkomende nummer in te geven. Wanneer we dit doen krijgen we een tekst terug die zegt welke keuze we gemaakt hebben. Als we tekst ingeven wordt er getoond dat we voor een onbekende optie gekozen hebben.</p>
+
+		<p>Nu hebben we een duidelijk idee wat de file doet: het print de mogelijke opties die we kunnen kiezen, opent een prompt en vervolgens toont het onze gekozen optie. Nu gaan we bekijken als dit wel degelijk het enige is wat er gebeurt in de assembly.</p>
+		
+		<p>Voor onze file te ‘disassemblen’ (de assembly tonen), maken we gebruik van IDA Pro. 
+		Wanneer we de file inladen kan het er op het begin zeer overwelmend uitzien.</p>
+
+		<img alt="reversing" src="img/activiteiten/reversing/assembly1.png">
+ 
+		<p>Wat we best altijd op het begin doen is de workflow van de file nakijken, om te kijken als het overeenkomt met de workflow van toen we de file uitvoerde. In de rood-omkaderde tekst zien we de tekst terugkomen die getoond wordt wanner we de file starten. Aangezien ik deze demo duidelijk wil houden voor beide een technisch- en niet-technisch publiek, ga ik elke lijn assembly niet in-depth bespreken. Dit is ook niet noodzakelijk om deze challenge op te lossen.</p>
+
+		<img alt="reversing" src="img/activiteiten/reversing/assembly2.png">
+ 
+		<p>Wanner we naar het einde van de block gaan, zien we dat er ‘encryptDecrypt’ functie gecalled wordt. Dit duidt er waarschijnlijk op dat er een XOR gebeurt op data. (We weten dit aangezien XOR een bekende methode is aangezien we dezelfde functie kunnen gebruikte voor beide het decrypteren en encrypteren van data) Hier gaan we niet in-depth op ingaan, omdat dit proces complex kan zijn. Op het einde van de block wordt er een jump uitgevoerd naar een nieuwe block, afhankelijk van welke input er ingegeven wordt.</p>
+
+		<img alt="reversing" src="img/activiteiten/reversing/assembly3.png">
+ 
+		<p>We zien dat er jump kan gebeuren waarbij er een verborgen bericht getoond kan worden, of de jump kan gaan naar de output die we eerder zagen wanneer we het programma uitvoeren. 
+		
+		<p><b>Let op: normaal worden beide de geheime input en het geheime bericht geëncrypteerd, maar om het duidelijk te maken waar we naar toe willen werken heb ik het geheim bericht in plain tekst laten staan.</b></p>
+		
+		<p>We zouden deze challenge op 3 manieren kunnen oplossen, maar om het simpel te houden ga ik alleen de makkelijkste oplossing toelichten. Ten eerste kunnen we de XOR encryptie gaan reversen, en zo de geëncrypteerde data decrypteren om zo de juiste input te weten te komen. Ten tweede kunnen we heel veel karakters ingeven in de prompt om een zogenaamde ‘buffer overflow’ te veroorzaken, maar dit is eerder binary exploitation dan reverse engineering. Ten laatste kunnen we de jump adressen omwisselen.</p>
+		
+		<p>Wanneer we de gevraagde input ingeven (1 of 2), komen we terecht in de groene kader. We gaan de jump instructie zodanig wijzigen dat we met dezelfde input in de rode kader terecht komen (het geheim bericht. We doen dit door ‘jnz’ naar ‘jz’ te veranderen (jump not zero / jump zero).</p>
+
+		<img alt="reversing" src="img/activiteiten/reversing/jnz.png"> --> <img alt="reversing" src="img/activiteiten/reversing/jz.png">
+
+		<p>Als we nu de file opslaan en opnieuw runnen krijgen we een nieuw resultaat met dezelfde input!</p>
+ 
+		<img alt="reversing" src="img/activiteiten/reversing/result.png">
+
+		<p>Ik ben altijd zeer geïnteresseerd geweest in security, maar ik wou me altijd focussen op een specifiek onderwerp. Door de verschillende events zoals de Cyber Security Challenge en HackTheBox CTF ben ik erachter gekomen dat mijn ware interesses bij reverse engineering liggen. Ik had nooit een concreet beeld hoe onze software die we tijdens de programmeervakken op school echt tewerk ging binnen een computer, dit vond ik enorm boeiend om te weten te komen. Ook heeft Sander Smets, een vriend die ik door de Hogeschool PXL heb leren kennen, een grote invloed hierop gehad. Hij had een kritieke vulnerability gevonden binnen de software wat er gebruikt voor de examens van CCNA.</p>
+
+		<p>Zelf ben ik zeer tevreden dat mijn interesse bij reverse engineering ligt aangezien ik dit op enorm veel apparaten, software, … kunnen toepassen in mijn vrije tijd. Ook wordt er aangeleerd hoe bepaalde software gecompileerd wordt naar machine taal, hierdoor kunnen we beter begrijpen hoe we de meest optimale, performante en efficiënte code kunnen schrijven wanneer we software ontwikkelen.</p>
+
+		<p>Ook sluit reverse engineering nauw aan met andere security onderwerpen, zoals binary exploitation wat eerder vermeld werd. Dit is ook een onderwerp dat me enorm interesseert en waar ik in de toekomst steeds meer van ga proberen te leren. Binnen binary exploitation wordt er eerder gekeken hoe we de input van de files kunnen misbruiken, ten opzichte van de assembly analyseren en wijzigen.</p>
+
+		<p>Ik ben de Hogeschool PXL enorm dankbaar voor de duidelijk uitgelegde security vakken, hun aanzet voor het deelnemen aan activiteiten, en de nieuwe contacten die ik heb leren kennen. Zonder dit allemaal had ik nooit mijn ware interesse ontdekt.</p>
+      </div>
+  </div>
+    </div>
+  </div>
+</div>
+</section>
+ <section class="bg-info" id="reflectie">
+      <div class="container" style="padding:25px;">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white"  style="margin-top: 60px">Eindreflectie</h2>  
+            <hr class="dark">          
+            <p class="mb-4 text-white">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <p class="mb-4 text-white">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <p class="mb-4 text-white ">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <p class="mb-4 text-white">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <p class="mb-4 text-white">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.""Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+          </div>
+        </div>
+      </div>
+ </section>
+ <section id="contact" style="margin-top: 50px">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading">Contact</h2>
+            <hr class="my-4">
+            <p class="mb-5"></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+            <p>
+              <a href="mailto:nijsthibaut@gmail.com">nijsthibaut@hotmail.com</a>
+            </p>
+          </div>
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fab fa-linkedin fa-3x mb-3 text-muted"></i>
+            <p>
+              <a href="https://be.linkedin.com/in/thibaut-nijs/" target="_blank">Thibaut Nijs</a>
+            </p>
+          </div>
+          <div class="col-lg-4 ml-auto text-center">
+            <i class="fab fa-github fa-3x mb-3 text-muted"></i>
+            <p>
+              <a href="https://github.com/ThibautNijs">ThibautNijs</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Optional JavaScript -->
+    <script>
+      particlesJS('particles-js',{
+  "particles": {
+    "number": {
+      "value": 402,
+      "density": {
+        "enable": true,
+        "value_area": 800
+      }
+    },
+    "color": {
+      "value": "#17a2b8"
+    },
+    "shape": {
+      "type": "circle",
+      "stroke": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "img/github.svg",
+        "width": 100,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 1,
+      "random": true,
+      "anim": {
+        "enable": true,
+        "speed": 1,
+        "opacity_min": 0,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 3,
+      "random": true,
+      "anim": {
+        "enable": false,
+        "speed": 4,
+        "size_min": 0.3,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": false,
+      "distance": 150,
+      "color": "#ffffff",
+      "opacity": 0.4,
+      "width": 1
+    },
+    "move": {
+      "enable": true,
+      "speed": 1,
+      "direction": "none",
+      "random": true,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": false,
+      "attract": {
+        "enable": false,
+        "rotateX": 600,
+        "rotateY": 600
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": false,
+        "mode": "bubble"
+      },
+      "onclick": {
+        "enable": false,
+        "mode": "repulse"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 400,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 250,
+        "size": 0,
+        "duration": 2,
+        "opacity": 0,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 400,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+}
+);
+    </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
